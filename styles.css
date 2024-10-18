@@ -1,0 +1,165 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+body {
+   font-family: Helvetica, Arial, sans-serif;
+   display: flex;
+   flex-direction: column;
+}
+
+header,
+.hero {
+   padding: 0;
+   display: flex;
+   background-color: #1f2937;
+   padding: 20px 100px;
+   justify-content: space-between;
+}
+
+header > h1 {
+   font-size: 24px;
+   color: #f9faf8;
+}
+
+header ul {
+   list-style-type: none;
+   display: flex;
+   gap: 24px;
+}
+
+header a,
+.hero p {
+   color: #e5e7eb;
+   text-decoration: none;
+   font-size: 18px;
+}
+
+.hero {
+   padding: 100px 100px;
+}
+
+.hero div {
+   flex-basis: 45%;
+   min-width: 350px;
+}
+
+.hero img {
+   width: 100%;
+   height: 100%;
+}
+
+.hero h1 {
+   font-size: 48px;
+   color: #f9faf8;
+   font-weight: 900;
+}
+
+button {
+   background-color: #3882f6;
+   color: #f9faf8;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   font-weight: 700;
+   margin-top: 10px;
+   cursor: pointer;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+}
+
+.products h2 {
+   font-size: 32px;
+   color: #1f2937;
+   font-weight: 900;
+   text-align: center;
+}
+
+.products ul {
+   display: flex;
+   text-align: center;
+   list-style-type: none;
+   gap: 45px;
+   margin-top: 20px;
+}
+
+.products {
+   padding: 50px 100px;
+}
+
+.products li {
+   flex-basis: 25%;
+}
+
+.products img {
+   border-radius: 16px;
+   border: 3px solid #3882f6;
+   width: 100%;
+   background-color: transparent;
+}
+
+.testimonials {
+   display: flex;
+   flex-direction: column;
+   background-color: #e5e7eb;
+   margin: 65px 0 0;
+   padding: 0 100px;
+}
+
+.testimonials .review p {
+   font-size: 25px;
+   color: #1f2937;
+   font-style: italic;
+   font-weight: 100;
+   padding: 50px;
+   padding-bottom: unset;
+}
+
+.testimonials p {
+   align-self: flex-end;
+   font-size: 20px;
+   font-weight: 700;
+   padding-bottom: 50px;
+   padding-right: 55px;
+}
+
+.bottom-cta {
+   display: flex;
+   justify-content: space-between;
+   align-self: center;
+   background-color: #3882f6;
+   width: 900px;
+   border-radius: 8px;
+   margin: 80px auto;
+   padding: 50px;
+   gap: 30px;
+}
+
+.bottom-cta .text {
+   color: #e5e7eb;
+   font-size: 12px;
+}
+
+.text p:first-child {
+   font-size: 18px;
+   color: #f9faf8;
+}
+
+.bottom-cta button {
+   border: 2px solid #e5e7eb;
+   flex-basis: 140px;
+}
+
+footer {
+   background-color: #1f2937;
+   color: #e5e7eb;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+}
