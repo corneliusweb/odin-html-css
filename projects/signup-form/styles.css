@@ -1,0 +1,21 @@
+@font-face {
+   font-family: "Lato Regular";
+   src: url(./assets/fonts/lato-regular-webfont.woff2),
+      url(./assets/fonts/lato-regular-webfont.woff);
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Lato Bold";
+   src: url(./assets/fonts/lato-bold-webfont.woff2),
+      url(./assets/fonts/lato-bold-webfont.woff);
+   font-weight: normal;
+   font-style: normal;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
