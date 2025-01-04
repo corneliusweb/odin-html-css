@@ -56,3 +56,22 @@ main {
       }
    }
 }
+
+.right-side {
+   padding: 25px;
+   background-color: aliceblue;
+   flex-grow: 1;
+
+   & .cta-content {
+      height: 200px;
+      padding-top: 90px;
+
+      & p {
+         word-break: normal;
+         max-width: 60ch;
+         font-family: 'Lato Bold', sans-serif;
+         line-height: 1.4;
+         font-size: large;
+      }
+   }
+}
