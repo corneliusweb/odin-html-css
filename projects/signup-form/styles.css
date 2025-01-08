@@ -42,7 +42,7 @@ main {
    position: relative;
    flex-shrink: 0;
 
-   & .logo {
+   & figure {
       background-color: rgba(0, 0, 0, 0.5);
       width: 100%;
       height: 150px;
