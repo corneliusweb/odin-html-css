@@ -15,7 +15,7 @@
 }
 
 :root {
-   --right-div-height: 220px; 
+   --right-div-height: 220px;
 }
 
 * {
@@ -70,24 +70,24 @@ main {
 
 .right-side {
    background-color: aliceblue;
-   flex-grow: 1;
+   flex: 1 1 auto;
 
    & .cta-content {
       max-height: var(--right-div-height);
       min-height: var(--right-div-height);
-      padding: 130px 0 40px 25px;
+      padding: 130px 0 40px 30px;
 
       & p {
          word-break: normal;
          max-width: 60ch;
          font-family: 'Lato Bold', sans-serif;
-         line-height: 1.4;
+         line-height: 1.6;
          font-size: large;
       }
    }
 
    & .input-container {
-      padding: 40px 25px;
+      padding: 40px 30px;
       background-color: #fff;
       max-height: var(--right-div-height);
       min-height: var(--right-div-height);
@@ -130,7 +130,7 @@ main {
    }
 
    & button {
-      margin: 30px 25px;
+      margin: 30px;
       border: none;
       background-color: #0047AB;
       padding: 10px 35px;
@@ -140,8 +140,8 @@ main {
       cursor: pointer;
    }
 
-   & p {
-      margin-left: 25px;
+   & > p {
+      margin-left: 30px;
 
       & a {
          text-decoration: none;
