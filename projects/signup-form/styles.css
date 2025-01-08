@@ -57,6 +57,7 @@ main {
       & img {
          width: 160px;
          height: auto;
+         border-radius: 30px 6px;
       }
 
       & figcaption {
